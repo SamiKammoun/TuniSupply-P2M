@@ -29,8 +29,8 @@ if ! command_exists npx ganache-cli; then
   exit 1
 fi
 
-# Start ganache-cli
-npx ganache-cli --accounts 10 --gasLimit 6721975000 &
+# Start ganache-cli and redirect output to a file
+npx ganache-cli --accounts 10 --gasLimit 6721975000 > ganache.txt 2>&1 &
 
 # Install dependencies
 npm install

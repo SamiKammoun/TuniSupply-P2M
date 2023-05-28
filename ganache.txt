@@ -1,0 +1,183 @@
+Ganache CLI v6.12.2 (ganache-core: 2.13.2)
+
+Available Accounts
+==================
+(0) 0xe1a229D77828559BC0ea9e09DA0E340eA625BFC2 (100 ETH)
+(1) 0xF895a4c5A537c4bb0065beA4441ED9Cc6B1488C4 (100 ETH)
+(2) 0xb3d0Fa917d8F0C8f3aFEe40F59c1042430f7EBb4 (100 ETH)
+(3) 0x98F5644b9367B9D9a05EB99A037B370dD9Aac7Bf (100 ETH)
+(4) 0x0600B9eBb00045e33b5A5cF2b1c8FEbe4cf228eB (100 ETH)
+(5) 0xB99527092Cd884d27A4ad6f9bA18fd932861C67e (100 ETH)
+(6) 0x614472A2bABe47f2061F08cF09DE1dE6062dD2F6 (100 ETH)
+(7) 0x65f90517dcB558eECA9dd5F3d3908102BfDF3a5f (100 ETH)
+(8) 0x2EEBdF38943ce6590b89b69B864D1E1156004231 (100 ETH)
+(9) 0xD5E33D2dc64aFb3df7eFBca5bc5087817d25dE43 (100 ETH)
+
+Private Keys
+==================
+(0) 0x263aabdab7f4a5612a6f5482551a5fba2af7a4470dc3907fecaeab1bb2006c6a
+(1) 0xd65e6e5b0fd54410d941342345b674ceddc1b52819f5b0e923a32db648cd00e6
+(2) 0x40e108f4a741f656b0d2dbc244b9e1148f76093d7c2cc5ab1da68e2822718c26
+(3) 0x2f2073059eea471959c57b00d2ad434c8e9440751f684b30527b662b94a9d48b
+(4) 0x5e94c8f5da99df6bfb135bf3b45c52300da0faff1f43faba382310ac27d6051c
+(5) 0x8014c3195bab9bd496547dde4c12b80451c629dbfc997d93b0c1c5dceb19d83d
+(6) 0x0365d829ea1efab3b7744247d97748d95f532eb5bc036134f9c173fdeaaa9a92
+(7) 0x622bd4965c8127e0751fec8214f3250047d8c6000816532347b0d2733123e170
+(8) 0xfe01febcb13e9c5e8fd08b3876f1553d06dfae79b2c02e50dd6d025288244134
+(9) 0xc777c501954e6a733f705963aa80e955e6a8d3fe385720a77b59ca50a329a321
+
+HD Wallet
+==================
+Mnemonic:      punch someone rain liberty slice brown grace swap ethics syrup tooth alter
+Base HD Path:  m/44'/60'/0'/0/{account_index}
+
+Gas Price
+==================
+20000000000
+
+Gas Limit
+==================
+6721975000
+
+Call Gas Limit
+==================
+9007199254740991
+
+Listening on 127.0.0.1:8545
+eth_blockNumber
+net_version
+eth_accounts
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0xe4844a9658c2d5bb94dcee9d32154f2125bcb62e8900121a60fcd1cf84492753
+  Contract created: 0x541a5c7daa79b83779c007626d90a35fad4b2a75
+  Gas usage: 128970
+  Block Number: 1
+  Block Time: Sun May 28 2023 12:31:44 GMT+0100 (Central European Standard Time)
+
+eth_getTransactionReceipt
+eth_subscribe
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0xb8dfd3d3da51c1388fb22efa09aea2c9f053f6fb900652916fd3f8bdb9e573bd
+  Gas usage: 42266
+  Block Number: 2
+  Block Time: Sun May 28 2023 12:31:44 GMT+0100 (Central European Standard Time)
+
+eth_getBlockByNumber
+eth_getTransactionReceipt
+eth_subscribe
+eth_getBlockByNumber
+eth_accounts
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x18d894af816bea843278bd0deeca406627364d66471e9df58c9c8fcc422618fe
+  Contract created: 0x897dea14afe2f2f673074fbacc92ba360e4ac733
+  Gas usage: 206533
+  Block Number: 3
+  Block Time: Sun May 28 2023 12:31:44 GMT+0100 (Central European Standard Time)
+
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getTransactionReceipt
+eth_subscribe
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x4dfe720d65670d2db5369fb9bcf889549dab63fa6cc11344c9649d8c6fd55ca8
+  Contract created: 0x61f4565fd4a42c1ff9453a63cd5019c0cdf31a69
+  Gas usage: 71714
+  Block Number: 4
+  Block Time: Sun May 28 2023 12:31:44 GMT+0100 (Central European Standard Time)
+
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getTransactionReceipt
+eth_subscribe
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+net_version
+eth_getBlockByNumber
+eth_getBlockByNumber
+net_version
+eth_getBlockByNumber
+eth_estimateGas
+net_version
+eth_blockNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0x3923e31c4a828aaf057b1b04215ca955a6ba61de758e7a3ec3d44ec7da6caea3
+  Contract created: 0x63722fb39448bb4b81ab07b6493dc21614fa04da
+  Gas usage: 3994570
+  Block Number: 5
+  Block Time: Sun May 28 2023 12:31:45 GMT+0100 (Central European Standard Time)
+
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getTransactionReceipt
+eth_subscribe
+eth_getCode
+eth_getTransactionByHash
+eth_getBlockByNumber
+eth_getBalance
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_sendTransaction
+
+  Transaction: 0xc9d5e8df2a978cca920cf9114059f3b3d528ed54a1001b9601322797001f0aca
+  Gas usage: 27266
+  Block Number: 6
+  Block Time: Sun May 28 2023 12:31:45 GMT+0100 (Central European Standard Time)
+
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getBlockByNumber
+eth_getTransactionReceipt
+eth_subscribe
+net_version
