@@ -152,6 +152,8 @@ The entire structure of the code.
 
 ## Installation and Setup
 
+### Method 1
+
 Prerequisites : `npm, git, docker(optional)`
 
 Clone the repository
@@ -210,6 +212,70 @@ npm start
 ```
 
 The app gets hosted by default at port 3000.
+
+### Method 2
+
+chmod +x ./start-project.sh
+
+./start-project.sh
+
+### Using the app:
+
+<!-- install metamask instructions and add the following network:
+Localhost 8545
+http://localhost:8545
+1337
+ETH -->
+
+-   Install Metamask extension on your browser.
+-   Create an account and save the seed phrase.
+-   Connect to the local network.
+    -   Click on the network dropdown.
+    -   Click on custom RPC.
+    -   Enter the following details:
+        -   Network Name: Localhost 8545
+        -   New RPC URL: http://localhost:8545
+        -   Chain ID: 1337
+        -   Currency Symbol: ETH
+    -   Click on save.
+-   Import the account using the private keys from ganache cli (in method 1, you will find it in the bash output. In method 2, you will find a file called ganache.txt)
+    -   The ganache output should be like that: ```Bash Ganache CLI v6.12.2 (ganache-core: 2.13.2)
+
+# Available Accounts
+
+(0) 0xe1a229D77828559BC0ea9e09DA0E340eA625BFC2 (100 ETH)
+(1) 0xF895a4c5A537c4bb0065beA4441ED9Cc6B1488C4 (100 ETH)
+(2) 0xb3d0Fa917d8F0C8f3aFEe40F59c1042430f7EBb4 (100 ETH)
+(3) 0x98F5644b9367B9D9a05EB99A037B370dD9Aac7Bf (100 ETH)
+(4) 0x0600B9eBb00045e33b5A5cF2b1c8FEbe4cf228eB (100 ETH)
+(5) 0xB99527092Cd884d27A4ad6f9bA18fd932861C67e (100 ETH)
+(6) 0x614472A2bABe47f2061F08cF09DE1dE6062dD2F6 (100 ETH)
+(7) 0x65f90517dcB558eECA9dd5F3d3908102BfDF3a5f (100 ETH)
+(8) 0x2EEBdF38943ce6590b89b69B864D1E1156004231 (100 ETH)
+(9) 0xD5E33D2dc64aFb3df7eFBca5bc5087817d25dE43 (100 ETH)
+
+# Private Keys
+
+(0) 0x263aabdab7f4a5612a6f5482551a5fba2af7a4470dc3907fecaeab1bb2006c6a
+(1) 0xd65e6e5b0fd54410d941342345b674ceddc1b52819f5b0e923a32db648cd00e6
+(2) 0x40e108f4a741f656b0d2dbc244b9e1148f76093d7c2cc5ab1da68e2822718c26
+(3) 0x2f2073059eea471959c57b00d2ad434c8e9440751f684b30527b662b94a9d48b
+(4) 0x5e94c8f5da99df6bfb135bf3b45c52300da0faff1f43faba382310ac27d6051c
+(5) 0x8014c3195bab9bd496547dde4c12b80451c629dbfc997d93b0c1c5dceb19d83d
+(6) 0x0365d829ea1efab3b7744247d97748d95f532eb5bc036134f9c173fdeaaa9a92
+(7) 0x622bd4965c8127e0751fec8214f3250047d8c6000816532347b0d2733123e170
+(8) 0xfe01febcb13e9c5e8fd08b3876f1553d06dfae79b2c02e50dd6d025288244134
+(9) 0xc777c501954e6a733f705963aa80e955e6a8d3fe385720a77b59ca50a329a321
+
+# HD Wallet
+
+Mnemonic: punch someone rain liberty slice brown grace swap ethics syrup tooth alter
+Base HD Path: m/44'/60'/0'/0/{account_index}```
+
+-   Copy the first private key and paste it in the private key field in metamask.
+-   Click on import.
+-   You are now connected to the local network and have an account to interact with the smart contract.
+-   Open the app in the browser and you can now interact with the smart contract.
 
 ## License
 
