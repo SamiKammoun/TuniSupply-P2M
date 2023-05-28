@@ -1,8 +1,6 @@
 <h1 align="center">
-  <br>
-  <a><img src="https://github.com/SamiKammoun/TuniSupply-P2M/blob/main/images/logo.png" width="200"></a>
   <br>  
-  Supply-Chain-Dapp
+  TuniSupply
   <br>
 </h1>
 
@@ -216,6 +214,8 @@ The app gets hosted by default at port 3000.
 ## License
 
 This project uses an [MIT](https://opensource.org/licenses/MIT) license.
+
+It is part of our P2M project at Sup'Com.
 
 ## Documentation to help with Solidity
 
